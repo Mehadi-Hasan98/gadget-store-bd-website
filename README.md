@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Gadget Store BD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site Link: [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

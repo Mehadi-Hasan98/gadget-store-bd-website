@@ -1,0 +1,48 @@
+[
+    {
+      "id": "1",
+      "name": "Leach Rollins",
+      "rating": "4"
+    },
+    {
+      "id": "2",
+      "name": "Deloris Higgins",
+      "review": "This is a good product. just loved to use it. Recommended",
+      "rating": "5"
+    },
+    {
+      "id": "3",
+      "name": "Lindsey Maddox",
+      "rating": "4.5"
+    },
+    {
+      "id": "4",
+      "name": "Mcfadden Gentry",
+      "rating": "3"
+    },
+    {
+      "id": "5",
+      "name": "Duke Lindsey",
+      "rating": "4"
+    },
+    {
+      "id": "6",
+      "name": "Freeman Colon",
+      "rating": "4.5"
+    },
+    {
+      "id": "7",
+      "name": "Zelma Paul",
+      "rating": "5"
+    },
+    {
+      "id": "8",
+      "name": "Sawyer Ortiz",
+      "rating": "4"
+    },
+    {
+      "id": "9",
+      "name": "Reeves Shields",
+      "rating": "4.5"
+    }
+  ]

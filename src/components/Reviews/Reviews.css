@@ -1,0 +1,9 @@
+.review{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.review1{
+    border: 1px solid slategray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

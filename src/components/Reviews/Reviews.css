@@ -1,9 +1,8 @@
-.review{
+.card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-.review1{
-    border: 1px solid slategray;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    justify-content: center;
+    margin-left:70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }

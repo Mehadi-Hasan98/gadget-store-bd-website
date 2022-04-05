@@ -1,9 +1,28 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .main-text{
     color: orangered;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .homepage{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
     margin: 30px;
+}
+.card-home{
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.review-btn{
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
 }

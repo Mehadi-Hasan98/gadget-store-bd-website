@@ -1,12 +1,18 @@
 import React from 'react';
 import './Home.css';
 import Image from '../../components/Image/headphone.jpg'
+import useReviews from '../../Hooks/useReviews';
+import Review from '../Review/Review';
+import { useNavigate } from 'react-router-dom';
 
 
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    const navigate = useNavigate();
     return (
         <div className='homepage'>
+            <div className='main'>
             <div>
             <h1 className='main-text'>Next Generations Headphone</h1>
             <h1 className='main-text'>Next Generations Gadget</h1>
@@ -14,8 +20,18 @@ const Home = () => {
             <button>Live Demo</button>
             </div>
             <div>
-            <img width={400} src={Image} alt="" />
+            <img width={350} src={Image} alt="" />
             </div>
+            </div>
+            <br></br>
+            <br></br>
+            <h2>Customers Review</h2>
+            <div className='card-home'>
+            {reviews.slice(0, 3).map((review) => (
+            <Review key={review.id} review={review}></Review>
+          ))}
+            </div>
+            <button className='review-btn' onClick={()=> navigate('/reviews')}>See All Reviews</button>
         </div>
         
     );

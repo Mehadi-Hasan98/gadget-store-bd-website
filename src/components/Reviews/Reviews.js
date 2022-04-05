@@ -1,15 +1,12 @@
-import { useEffect, useState } from 'react';
-import './Reviews.css'
+import React from 'react';
+import './Reviews.css';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
-
-    useEffect( () => {
-        fetch('reviews.json')
-        .then(res => res.json())
-        .then(data => setReviews(data))
-    }, [])
-    return [reviews, setReviews]
+    return (
+        <div>
+            <h2>Our happy Customers review</h2>
+        </div>
+    );
 };
 
 export default Reviews;

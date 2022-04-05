@@ -1,10 +1,14 @@
 # Gadget Store BD
 
-Live Site Link: [Create React App](https://github.com/facebook/create-react-app).
+[Live Site Link: ](https://gadget-store-bd.netlify.app/).
 
-## Available Scripts
+## Details about website
 
-In the project directory, you can run:
+1. This is a product review website.
+2. There have a product with description.
+3. This website has a review page where people review about products.
+4. It has a yearly business chart page.
+5. In the Navbar there are 5 nav link to visit.
 
 ### `npm start`
 

@@ -4,11 +4,11 @@
 
 ## Details about website
 
-1. This is a product review website.
-2. There have a product with description.
-3. This website has a review page where people review about products.
-4. It has a yearly business chart page.
-5. In the Navbar there are 5 nav link to visit.
+- This is a product review website.
+- There have a product with description.
+- This website has a review page where people review about products.
+- It has a yearly business chart page.
+- In the Navbar there are 5 nav link to visit.
 
 ### `npm start`
 
